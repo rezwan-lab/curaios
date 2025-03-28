@@ -1,5 +1,5 @@
-# Curaios - Biological Data Curator
-Curaios isn't just a tool. It's a system that understands your research language.
+# CurAIos - Biological Data Curator
+CurAIos isn't just a tool. It's a system that understands your research language.
 
 ## Authors
 Dr Rezwanuzzaman Laskar
@@ -7,7 +7,7 @@ Asifuzzaman Laskar
 
 
 ## Introduction
-Curaios is an AI-native metadata curation engine that transforms messy biomedical inputs into structured, normalized forms using Large Language Models (LLMs). It converts diverse scientific terminology into standardized database formats through semantic analysis of organism names, disease labels, and data types. By employing contextual understanding rather than simple keyword matching, Curaios ensures more accurate and comprehensive search results across repositories like NCBI GEO, Figshare, OSF, ScienceDB and Zenodo.
+CurAIos is an AI-native metadata curation engine that transforms messy biomedical inputs into structured, normalized forms using Large Language Models (LLMs). It converts diverse scientific terminology into standardized database formats through semantic analysis of organism names, disease labels, and data types. By employing contextual understanding rather than simple keyword matching, Curaios ensures more accurate and comprehensive search results across repositories like NCBI GEO, Figshare, OSF, ScienceDB and Zenodo.
 
 ## Naming
 The name Curaios combines Curation, AI, and the suffix -os (as in “system”)—capturing the idea of of metadata curation, artificial intelligence, and systematic processing that works as a cohesive solution.
