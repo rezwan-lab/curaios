@@ -1,0 +1,46 @@
+{
+  "llm": {
+    "api_key": "",
+    "model": "deepseek/deepseek-chat",
+    "embedding_model": "DeepSeek-V1",
+    "temperature": 0.7,
+    "max_tokens": 1000
+  },
+  "ncbi": {
+    "api_key": "",
+    "email": "",
+    "tool": "curaios",
+    "rate_limit": 3
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "curaios.log",
+    "audit_file": "audit.log"
+  },
+  "repositories": {
+    "enabled": [
+      "geo",
+      "figshare",
+      "zenodo",
+      "osf",
+      "sciencedb"
+    ],
+    "max_results_per_source": 100
+  },
+  "cache": {
+    "enabled": true,
+    "ttl": 86400
+  },
+  "fuzzy_matching": {
+    "threshold": 0.85
+  },
+  "semantic_matching": {
+    "threshold": 0.75
+  },
+  "plugins": {
+    "enabled": true,
+    "dirs": [
+      "plugins"
+    ]
+  }
+}
